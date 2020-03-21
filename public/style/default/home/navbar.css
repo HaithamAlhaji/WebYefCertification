@@ -1,0 +1,9 @@
+nav {
+  background-color: #f57f29;
+}
+
+nav .navbar-brand i {
+  padding: 5px;
+  border-radius: 5px 0 5px 0;
+  border: 1px solid white;
+}

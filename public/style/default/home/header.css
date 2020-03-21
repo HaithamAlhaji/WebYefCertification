@@ -1,0 +1,44 @@
+header {
+  color: white;
+}
+
+header .jumbotron {
+  background-color: #f9a038;
+  margin: 0;
+}
+
+header #logo {
+  background-color: #f57f29;
+  color: white;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 5px 0 5px 0;
+}
+
+header #logo #logoImage {
+  height: 100px;
+  width: 100px;
+  background-image: url("img/logo_white.png");
+  background-position: center;
+  background-clip: content-box;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+header #description {
+  opacity: 0.5;
+}
+
+header #search {
+  direction: ltr;
+}
+
+header #search div input {
+  font-size: 22px;
+}
+
+header #search div div button {
+  height: 100%;
+  direction: rtl;
+}
